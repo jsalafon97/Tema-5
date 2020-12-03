@@ -22,13 +22,13 @@ Al código base de la simulacion se le debe realizar solo unos pequeños cambios
 
 **Primero:** Hay que cambier el umbral a 0 para que calcula los instantes en que no hay clientes:
 ```python
-  \# Umbral de P o más personas en sistema (hay P - 1 en fila)
+  # Umbral de P o más personas en sistema (hay P - 1 en fila)
   P = 0
 ```
   
 **Segundo:** Hay que cambier el ciclo que cuenta los instantes para que sume cada vez que la cantidad de clientes sea igual a P = 0
 ```python
- \# Recorrido del vector temporal y conteo de clientes (estado n)
+ # Recorrido del vector temporal y conteo de clientes (estado n)
   for i, c in enumerate(t):
       n += c # sumar (+1) o restar (-1) al estado
       Xt[i] = n
