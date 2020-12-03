@@ -8,3 +8,5 @@ En este laboratorio se requiere calcular la velocidad de atencion de servicio de
 Para poder utilizar la formula del primer ejemplo, no podemos utilizarla para calcular cuando el servidor esta vacio (0 clientes en el sistema) pero si podemos utilizarla para calcular cuando no lo está (1 o mas clientes en el sistema) de tal manera que el porcentaje del tiempo que el servidor no esta vacio no puede ser menor al 90% para que cumpla con la condicion solicitada. 
 
 $P(1 \leq  clientes) = \sum_{i=5}^{\propto }(1-\rho )\rho ^{i}=1-\sum_{i=0}^{1}(1-\rho )\rho ^{i}=\rho^{2}$
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=P(1&space;\leq&space;clientes)&space;=&space;\sum_{i=5}^{\propto&space;}(1-\rho&space;)\rho&space;^{i}=1-\sum_{i=0}^{1}(1-\rho&space;)\rho&space;^{i}=\rho^{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?P(1&space;\leq&space;clientes)&space;=&space;\sum_{i=5}^{\propto&space;}(1-\rho&space;)\rho&space;^{i}=1-\sum_{i=0}^{1}(1-\rho&space;)\rho&space;^{i}=\rho^{2}" title="P(1 \leq clientes) = \sum_{i=5}^{\propto }(1-\rho )\rho ^{i}=1-\sum_{i=0}^{1}(1-\rho )\rho ^{i}=\rho^{2}" /></a>
